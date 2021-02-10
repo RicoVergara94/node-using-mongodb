@@ -17,5 +17,5 @@ app.listen(PORT, () =>
     console.log(`Your server is running on port ${PORT}`)
 );
 
-mongoose.connect('mongodb://localhost:27017/productsdb', {useNewUrlParser: true});
+mongoose.connect('mongodb://localhost:4000/productsdb', {useNewUrlParser: true});
 mongoose.Promise = global.Promise;
