@@ -1,5 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import mongoose from 'mongoose';
 
 const app = express();
 const PORT = 4000;
@@ -15,3 +16,6 @@ app.get('/', (req, res) =>
 app.listen(PORT, () => 
     console.log(`Your server is running on port ${PORT}`)
 );
+
+mongoose.connect('mongodb://localhost:27017/productsdb', {useNewUrlParser: true});
+mongoose.Promise = global.Promise;
