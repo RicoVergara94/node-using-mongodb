@@ -14,16 +14,24 @@
   "author": "Emmanuel Henri",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "expect.js": "^0.3.1",
     "express": "^4.17.1",
+    "material-design-icons-iconfont": "^6.1.0",
     "mocha": "^7.0.1",
     "mongoose": "^5.11.15",
-    "nodemon": "^2.0.2"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2",
+    "vuetify": "^2.4.4",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-0": "^6.24.1"
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^7.20.0",
+    "webpack": "^5.21.2"
   }
 }
